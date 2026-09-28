@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {ListingPage} from "@/components/listing-page";export const metadata:Metadata={title:"All Tools",description:"Browse every tool in the IMPHNEN ONLINE TOOLS collection."};export default function Page(){return <ListingPage kind="all"/>}

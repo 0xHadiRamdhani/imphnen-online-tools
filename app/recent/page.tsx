@@ -1,0 +1,1 @@
+import type {Metadata} from "next";import {ListingPage} from "@/components/listing-page";export const metadata:Metadata={title:"Recently Used"};export default function Page(){return <ListingPage kind="recent"/>}
