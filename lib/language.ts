@@ -400,7 +400,7 @@ const id: Record<string, string> = Object.fromEntries([
     ["Availability", "Ketersediaan"],
     ["Some tools require additional providers or processing engines. Their setup requirements are shown on the tool page. Features may change as the toolkit develops.", "Beberapa alat memerlukan penyedia tambahan atau mesin pemrosesan. Persyaratan konfigurasinya ditampilkan di halaman alat. Fitur dapat berubah seiring pengembangan."],
     ["Questions", "Pertanyaan"], ["For questions about this deployment, contact the IMPHNEN ONLINE TOOLS operator.", "Untuk pertanyaan mengenai situs ini, hubungi pengelola IMPHNEN ONLINE TOOLS."],
-    ["Expand sidebar", "Buka sidebar"]
+    ["Expand sidebar", "Buka sidebar"], ["Current workspace", "Ruang kerja aktif"], ["Workspace settings", "Pengaturan ruang kerja"], ["Rename workspace", "Ubah nama ruang kerja"], ["Workspace name", "Nama ruang kerja"], ["Save", "Simpan"], ["Cancel", "Batal"], ["No favorites yet", "Belum ada favorit"], ["No recent tools yet", "Belum ada alat terbaru"]
   ]);
 
 export function translate(text: string, language: AppLanguage) {
